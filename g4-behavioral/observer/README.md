@@ -16,6 +16,8 @@ Naive design会把ProgressBar传入 worker， 由 worker来调用ProgressBar
 
 Design2: 传入 IProgress/Observer 接口。 缺点是无法支持多个接收者
 
+Observer 模式对 观察者和目标对象进行解耦合
+
 Observer 模式 需要 add(), remove(), iterator用来遍历所有的接收者
 
 
