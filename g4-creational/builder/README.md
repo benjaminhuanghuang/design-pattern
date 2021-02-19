@@ -13,3 +13,7 @@ An application needs to create the elements of a complex aggregate. The specific
 分步骤构建一个object。
 
 有点像Template Method。Template Method 关心操作，builder关心创建
+
+
+
+## javascript
