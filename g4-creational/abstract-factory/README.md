@@ -11,4 +11,6 @@ If an application is to be portable, it needs to encapsulate platform dependenci
 
 
 ## 
-一系列相互依赖的对象
+生成一系列相互依赖，相互关联的对象
+
+
