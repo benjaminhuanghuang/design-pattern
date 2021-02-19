@@ -34,6 +34,10 @@ type Context struct {
 func NewContext() *Context {
 	return &Context{}
 }
+
+/*
+
+ */
 func (c *Context) SetStrategy(strategy Strategy) {
 	c.strategy = strategy
 }
