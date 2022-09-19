@@ -2,7 +2,7 @@
 
 Target: Flexible, Maintainable ane Extensible
 
-## Creational 
+## Creational - How objects created
 
 Creational patterns are focused on `instantiating` objects in a way that `hides` the mechanisms of their creation from the rest of the program. 
 
@@ -15,7 +15,7 @@ Make decision at run time.
 - Prototype: A fully initialized instance to be copied or cloned
 - Singleton: A class of which only a single instance can exist
 
-## Structural
+## Structural - How objects relate to each other
 
 Structural patterns simplify the `relationships and hierarchies` between different classes and how they can be used to build larger and more complex entities. 
 
@@ -28,9 +28,7 @@ Structural patterns simplify the `relationships and hierarchies` between differe
 - Private Class Data: Restricts accessor/mutator access
 - Proxy: An object representing another object
 
-## Behavioral
-
-Behavioral patterns provide common ways objects can `communicate` with one another
+## Behavioral - How objects communicate with each other
 
 - Chain of responsibility: A way of passing a request between a chain of objects
 - Command: Encapsulate a command request as an object

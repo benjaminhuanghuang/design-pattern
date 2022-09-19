@@ -1,20 +1,13 @@
 ## Website
+
+https://refactoring.guru/design-patterns
+
 https://sourcemaking.com/
 
 https://refactoring.guru/design-patterns
 
 
-## Course 
-Modern C++ Design Patterns
-https://www.bilibili.com/video/BV19x411G7tQ/?p=2&spm_id_from=pageDriver
 
-
-李建忠 设计模式
-https://www.bilibili.com/video/BV1kW411P7KS
-
-
-## book
-Holub on Patterns - Learning Design Patterns by Looking at Code
 
 ## Reference
 -[Go design patterns-2017](https://www.packtpub.com/application-development/go-design-patterns)
