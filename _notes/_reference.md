@@ -6,7 +6,7 @@ https://sourcemaking.com/
 
 https://refactoring.guru/design-patterns
 
-
+https://dotnettutorials.net/lesson/visitor-design-pattern/
 
 
 ## Reference
