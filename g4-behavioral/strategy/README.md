@@ -7,7 +7,11 @@ Capture the abstraction in an interface, bury implementation details in derived 
 ## Problem
 One of the dominant strategies of object-oriented design is the "open-closed principle".
 
-## 
+## Implementation 
+- Defines a family of algorithms
+- Encapsulates each algorithm
+- Makes the algorithms interchangeable within that family.
+
 把算法封装成对象，在运行时改变算法， 消除 代码中的 if... else, switch...case
 
 当出现新的算法时，无需修改代码（Open Close Principle）
@@ -32,7 +36,10 @@ One of the dominant strategies of object-oriented design is the "open-closed pri
 如何创建 Strategy： 需要使用Factroy Pattern
 
 
-
+## Pros
+1. Adding a new strategy will never disturb any previous code.
+2. Removal/Refactoring of any previous strategy is flexible.
+3. Easy to test single units.
 
 
 
