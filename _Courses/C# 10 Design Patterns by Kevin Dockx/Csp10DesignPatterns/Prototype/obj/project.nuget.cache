@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OvLq/3fUsfQQP6dIs65b1TX6dvLdgI03F6FC55N5ylmDqb0M0jmbJQFSJQV55V2jietkmR8zFkw8SMvUYN9KZQ==",
+  "success": true,
+  "projectFilePath": "C:\\ben-github\\design-pattern\\_Courses\\C# 10 Design Patterns by Kevin Dockx\\Csp10DesignPatterns\\Prototype\\Prototype.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\benjhuang\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
