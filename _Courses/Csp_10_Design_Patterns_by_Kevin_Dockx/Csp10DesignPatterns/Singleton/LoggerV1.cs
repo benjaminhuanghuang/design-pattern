@@ -7,28 +7,34 @@ using System.Threading.Tasks;
 namespace Singleton
 {
     /// <summary>
-    /// Singleton
+    /// Singleton using lazy 
     /// </summary>
     public class LoggerV1
     {
         private static LoggerV1? _instance;
 
-        
+
         /// <summary>
         /// Instance
         /// </summary>
         public static LoggerV1 Instance
         {
+            /*
+             * Not guaranteed to be thead safe
+             */
             get
             {
                 if (_instance == null)
                 {
-                    _instance = new Logger();
+                    _instance = new LoggerV1();
                 }
                 return _instance;
             }
         }
 
+        /*
+         * protected allows subclassed
+         */
         protected LoggerV1()
         {
         }

@@ -101,7 +101,9 @@ namespace AbstractFactory
         private readonly IShippingCostsService _shippingCostsService;
         private int _orderCosts;
 
-        // Constructor
+        /*
+        *  Constructor 
+        */
         public ShoppingCart(IShoppingCartPurchaseFactory factory)
         {
             _discountService = factory.CreateDiscountService();
@@ -112,7 +114,7 @@ namespace AbstractFactory
 
         public void CalculateCosts()
         {
-            Console.WriteLine($"Total costs = {_orderCosts - (_orderCosts / 100 * _discountService.DiscountPercentage) + _shippingCostsService.ShippingCosts }");
+            Console.WriteLine($"Total costs = {_orderCosts - (_orderCosts / 100 * _discountService.DiscountPercentage) + _shippingCostsService.ShippingCosts}");
         }
-    } 
+    }
 }
