@@ -33,3 +33,7 @@ https://github.com/sean-bradley/design-patterns-in-typescript
 
 ### Factory
 Factory is about adding extra abstraction between the object creation and where it is used.
+
+### Abstract Factory
+Use a Factory return Factories
+
