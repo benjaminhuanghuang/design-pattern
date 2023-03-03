@@ -85,6 +85,6 @@ It is intended to provide a agent or placeholder for another object to control o
 The proxy does not change the interface
 
 ### Flyweight
-flyweight pattern is used to sharing to support large numbers of fine‑grained objects efficiently.
+flyweight pattern is used to `sharing` to support large numbers of fine‑grained objects efficiently.
 
 As storage cost high, use large number of objects, most object state be made extrinsic
