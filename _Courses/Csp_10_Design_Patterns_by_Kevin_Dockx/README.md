@@ -74,8 +74,17 @@ This pattern allows `adding behavior` dynamically to an individual object withou
 Subclass is a wrapper of base class
 
 ### Composite
- Its intent is to compose objects into tree structures to represent part‑whole hierarchies. Like from components, file system
-
+Its intent is to compose objects into tree structures to represent part‑whole hierarchies. Like from components, file system
 
 ### Facade
- It is intended to provide a higher‑level interface over a subsystem to make the subsystem easier to use. 
+It is intended to provide a higher‑level interface over a subsystem to make the subsystem easier to use. 
+
+### Proxy
+It is intended to provide a agent or placeholder for another object to control or restriction to access the target object.
+
+The proxy does not change the interface
+
+### Flyweight
+flyweight pattern is used to sharing to support large numbers of fine‑grained objects efficiently.
+
+As storage cost high, use large number of objects, most object state be made extrinsic
