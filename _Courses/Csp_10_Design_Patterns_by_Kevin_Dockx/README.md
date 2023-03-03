@@ -68,3 +68,5 @@ We also HolidayCoupon, NewYearCoupon... subclassing is not the goode way to add 
 To combine the menu and coupon, we add a ICoupon field in the Menu, the ICoupon is a bridge.
 
 
+### Decorator
+This pattern allows adding behavior dynamically to an individual object without affecting the behavior of other instances of the same class.
