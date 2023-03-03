@@ -44,9 +44,27 @@ Different builder builds different Car.
 ### Prototype
 Its intent is to specify the kinds of objects to create using a prototypical instance and create new objects by `copying this prototype`.
 
+Avoid building a set of factories that mimic the class hierarchy,
 
+Starting from a clone will often be more convenient than starting from an instance with default values
 
+## Structural Pattern x 7
 
+### Adapter
+Its intent is to convert the interface of a class into another interface the client expects. 
 
+ClassAdapter: relies on inheritance
+
+ObjectAdapter: relies on composition
+
+## Bridge
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other
+
+The intent is to decouple an abstraction from its implementation so the two can vary independently.
+
+For example, we have abstract Menu class and implementation VegeMenu, MeatMenu....
+We also HolidayCoupon, NewYearCoupon... subclassing is not the goode way to add functionality. 
+
+To combine the menu and coupon, we add a ICoupon field in the Menu, the ICoupon is a bridge.
 
 
