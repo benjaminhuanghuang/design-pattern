@@ -88,3 +88,26 @@ The proxy does not change the interface
 flyweight pattern is used to `sharing` to support large numbers of fine‑grained objects efficiently.
 
 As storage cost high, use large number of objects, most object state be made extrinsic
+
+
+## Behavioral Pattern x 11
+
+### Template Method
+Its intent is to define a skeleton of an algorithm in an operation, deferring some steps to subclasses.
+
+### Strategy
+Its intent is to define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+
+Set strategy to a property or pass in the strategy as a parameter
+
+### Command
+It allows us to encapsulate requests as objects.thereby letting you parameterize clients with different requests, queue, or log requests, and support undoable operations.
+```
+    viewModel.SomeCommand.CanExecute()
+
+    viewModel.SomeCommand.Execute()
+```
+
+
+### Memento
+Sometimes called the token pattern. It's all about capturing and externalizing an object's internal state. 
