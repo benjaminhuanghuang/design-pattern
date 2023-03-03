@@ -72,6 +72,4 @@ namespace Composite
             return treeSize;
         }
     }
-
-
 }

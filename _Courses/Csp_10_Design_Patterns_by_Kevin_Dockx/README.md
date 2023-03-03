@@ -69,4 +69,13 @@ To combine the menu and coupon, we add a ICoupon field in the Menu, the ICoupon 
 
 
 ### Decorator
-This pattern allows adding behavior dynamically to an individual object without affecting the behavior of other instances of the same class.
+This pattern allows `adding behavior` dynamically to an individual object without affecting the behavior of other instances of the same class.
+
+Subclass is a wrapper of base class
+
+### Composite
+ Its intent is to compose objects into tree structures to represent part‑whole hierarchies. Like from components, file system
+
+
+### Facade
+ It is intended to provide a higher‑level interface over a subsystem to make the subsystem easier to use. 
