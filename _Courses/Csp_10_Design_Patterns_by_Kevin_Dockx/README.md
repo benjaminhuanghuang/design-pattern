@@ -111,3 +111,31 @@ It allows us to encapsulate requests as objects.thereby letting you parameterize
 
 ### Memento
 Sometimes called the token pattern. It's all about capturing and externalizing an object's internal state. 
+
+```
+private readonly Stack<AddEmployeeToManagerListMemento> _mementos = new ();
+
+
+if (command.CanExecute())
+{
+    command.Execute();
+    _mementos.Push(command.CreateMemento());
+}
+
+public void Undo()
+{
+    if (_mementos.Any())
+    {
+        _command?.RestoreMemento(_mementos.Pop());
+        _command?.Undo(); 
+    }
+}
+```
+
+### Mediator
+The intent of the mediator pattern is to define an object that encapsulates how a set of objects interact. 
+
+It does that by forcing objects to communicate via that mediator. 
+
+By doing so, it promotes loose coupling by keeping objects from referring to each other explicitly, and it also lets you vary their interaction independently. 
+
