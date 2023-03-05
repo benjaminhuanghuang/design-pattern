@@ -13,6 +13,9 @@ Memento is a way of maintaining state for an object at a point in time.
 
 缺点： 消耗资源。如果类的成员变量过多，势必会占用比较大的资源，而且每一次保存都会消耗一定的内存。
 
+## Use cases
+When part of the object's state must be saved so it is can be restored later on
+
 
 ## Example
 ```

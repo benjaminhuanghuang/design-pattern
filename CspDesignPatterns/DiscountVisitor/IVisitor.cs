@@ -1,14 +1,5 @@
-﻿using System.Xml.Linq;
+﻿namespace DiscountVisitor;
 
-namespace DiscountVisitor;
-
-/// <summary>
-/// Element
-/// </summary>
-public interface IElement
-{
-    void Accept(IVisitor visitor);
-}
 
 /// <summary>
 /// Visitor (alternative)

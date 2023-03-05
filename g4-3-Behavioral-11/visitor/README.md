@@ -26,3 +26,10 @@ Many distinct and unrelated operations need to be performed on node objects in a
 - The operations need to perform on the concrete classes of an object structure.
 - Exposing the internal state or operations of the object structure is acceptable.
 - Operations should be able to operate on multiple object structures that implement the same interface.
+
+
+## Use cases
+- When an object structure contains many classes of objects with different interfaces, and you want to perform operations on them depending on their concrete classes
+
+- When the classes defining your object structure don't have to change often, but you do often want to define new operations over the structure
+

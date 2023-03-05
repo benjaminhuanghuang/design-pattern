@@ -8,3 +8,5 @@ A class of problems occurs repeatedly in a well-defined and well-understood doma
 
 ##
 抽象出领域规则
+
+## Use cases

@@ -10,6 +10,11 @@ Application needs one, and only one, instance of an object. Additionally, lazy i
 - Lifetime issue
 - Initialization
 
+
+## Use cases
+When there must be exactly one instance of a class.
+
+
 ##
 - 绕过 new 
 C++ use private

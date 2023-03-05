@@ -9,7 +9,9 @@ The new operator considered harmful.
 A framework needs to standardize the architectural model for a range of applications, but allow for individual applications to define their own domain objects and provide for their instantiation.
 
 
-
+## Use cases
+- When a class can't anticipate the class of objects it must create
+- When a class wants its subclass to specify the object it creates
 
 ##
 避免紧耦合 new ClassName()
