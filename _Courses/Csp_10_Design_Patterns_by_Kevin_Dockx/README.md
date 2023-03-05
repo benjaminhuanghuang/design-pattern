@@ -142,3 +142,93 @@ By doing so, it promotes loose coupling by keeping objects from referring to eac
 
 ### Chain of Responsibility
 Its intent is to avoid coupling the sender of request to its receiver by giving more than one object a chance to handle the request. 
+
+Without Chain of Responsibility
+```
+public bool Validate() {
+    if (doc.Title ....) {
+        return false;
+    }
+
+    if (doc.Version ....) {
+        return false;
+    }
+
+    if (doc.Approved ....) {
+        return false;
+    }
+    return true;
+}
+```
+With Chain of Responsibility
+```
+var documentHandlerChain = new DocumentTitleHandler();
+
+documentHandlerChain
+    .SetSuccessor(new DocumentLastModifiedHandler())
+    .SetSuccessor(new DocumentApprovedByManagementHandler());
+
+documentHandlerChain.Handle(validDocument);
+
+```
+
+
+### Observer
+Observer is listener
+
+Its intent is to define a one‑to‑many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+
+Example:
+```
+public void AddObserver(ITicketChangeListener observer)
+{
+    _observers.Add(observer);
+}
+
+public void Notify(TicketChange ticketChange)
+{
+    foreach (var observer in _observers)
+    {
+        observer.ReceiveNotification(ticketChange);
+    }
+}
+```
+
+
+### State
+Its intent is to allow an object to alter its behavior when its internal state changes
+
+Example:
+```
+ public override void Withdraw(decimal amount)
+{
+    Balance -= amount;
+    if (Balance < 0)
+    {
+        // change state to overdrawn
+        BankAccount.BankAccountState = new OverdrawnState(Balance, BankAccount);
+    }
+}
+
+public override void Deposit(decimal amount)
+{
+    Balance += amount;
+    if (Balance >= 1000)
+    {
+        // change state to gold
+        BankAccount.BankAccountState = new GoldState(Balance, BankAccount);
+    }
+}
+
+public void Deposit(decimal amount)
+{
+    // let the current state handle the deposit
+    BankAccountState.Deposit(amount);
+}
+
+public void Withdraw(decimal amount)
+{
+    // let the current state handle the withdrawel
+    BankAccountState.Withdraw(amount);
+}
+````

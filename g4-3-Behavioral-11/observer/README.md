@@ -1,4 +1,5 @@
 # Observer
+Observer is listener
 
 ## Intent
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
@@ -20,4 +21,13 @@ Observer 模式对 观察者和目标对象进行解耦合
 
 Observer 模式 需要 add(), remove(), iterator用来遍历所有的接收者
 
-
+## Example
+```
+public void Notify(TicketChange ticketChange)
+{
+    foreach (var observer in _observers)
+    {
+        observer.ReceiveTicketChangeNotification(ticketChange);
+    }
+}
+```

@@ -5,6 +5,24 @@
 
 
 ## Example
+Without Chain of Responsibility
+```
+public bool Validate(){
+    if (doc.Title ....) {
+        return false;
+    }
+
+    if (doc.Version ....) {
+        return false;
+    }
+
+    if (doc.Approved ....) {
+        return false;
+    }
+    return true;
+}
+```
+
 Discount
 ```
     const ndiscount = new NumberDiscount();
