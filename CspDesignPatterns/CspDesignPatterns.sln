@@ -23,35 +23,39 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandTests", "CommandTest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{A068D701-3473-4E10-AF4B-A105515035EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoom", "ChatRoom\ChatRoom.csproj", "{1E02255D-0D4C-4D90-B95A-CF816EAAA81C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatRoom", "ChatRoom\ChatRoom.csproj", "{1E02255D-0D4C-4D90-B95A-CF816EAAA81C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatRoomTests", "ChatRoomTests\ChatRoomTests.csproj", "{F7BCB93E-AB5A-46FF-9DA4-60F7C058EDDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChatRoomTests", "ChatRoomTests\ChatRoomTests.csproj", "{F7BCB93E-AB5A-46FF-9DA4-60F7C058EDDC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{7C54BCC7-588F-4E2A-87CE-DDAC4EBE2780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBuilder", "CarBuilder\CarBuilder.csproj", "{F7E86290-960F-4D31-979C-569D578D0690}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBuilder", "CarBuilder\CarBuilder.csproj", "{F7E86290-960F-4D31-979C-569D578D0690}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarBuilderTests", "CarBuilderTests\CarBuilderTests.csproj", "{5F3016E3-C469-4EC6-A3DD-90FA1862ECFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarBuilderTests", "CarBuilderTests\CarBuilderTests.csproj", "{5F3016E3-C469-4EC6-A3DD-90FA1862ECFE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{1355F9D6-C484-4EAE-A9CF-C04B44FA1125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentValidators", "DocumentValidators\DocumentValidators.csproj", "{C3F0A2D4-138B-4BE6-9674-0A7BA17E4EFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentValidators", "DocumentValidators\DocumentValidators.csproj", "{C3F0A2D4-138B-4BE6-9674-0A7BA17E4EFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentValidatorsTests", "ChainofResponsibilityTests\DocumentValidatorsTests.csproj", "{8B961B1A-3622-4224-8FC8-3A7E795F14F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentValidatorsTests", "ChainofResponsibilityTests\DocumentValidatorsTests.csproj", "{8B961B1A-3622-4224-8FC8-3A7E795F14F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{7DF57BFC-DA00-41A2-BA3B-429AEB6BD4D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankState", "BankState\BankState.csproj", "{AEF463F6-31FA-4E9C-BA63-13FF78989AB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankState", "BankState\BankState.csproj", "{AEF463F6-31FA-4E9C-BA63-13FF78989AB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{C9188C61-9547-483F-84FA-168C8748E8FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleIterator", "PeopleIterator\PeopleIterator.csproj", "{3B4F8850-E597-4125-87C1-93A86088753B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleIterator", "PeopleIterator\PeopleIterator.csproj", "{3B4F8850-E597-4125-87C1-93A86088753B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{9E13C112-7071-4124-A780-8CBFC09682C6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interpreter", "Interpreter", "{72BB08EF-0670-46BD-9DAF-068CDC5AD154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountVisitor", "DiscountVisitor\DiscountVisitor.csproj", "{47F9BCE4-43C9-48CD-841D-75B676140C1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountVisitor", "DiscountVisitor\DiscountVisitor.csproj", "{47F9BCE4-43C9-48CD-841D-75B676140C1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountVisitorTests", "DiscountVisitorTests\DiscountVisitorTests.csproj", "{F0E5CD24-F3AF-416A-8D4F-4E715C905BD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorVisitor", "DoctorVisitor\DoctorVisitor.csproj", "{D4C84B55-3FB9-44C5-8CF5-0939AE10CC00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +115,14 @@ Global
 		{47F9BCE4-43C9-48CD-841D-75B676140C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47F9BCE4-43C9-48CD-841D-75B676140C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47F9BCE4-43C9-48CD-841D-75B676140C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0E5CD24-F3AF-416A-8D4F-4E715C905BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0E5CD24-F3AF-416A-8D4F-4E715C905BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0E5CD24-F3AF-416A-8D4F-4E715C905BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0E5CD24-F3AF-416A-8D4F-4E715C905BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C84B55-3FB9-44C5-8CF5-0939AE10CC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C84B55-3FB9-44C5-8CF5-0939AE10CC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C84B55-3FB9-44C5-8CF5-0939AE10CC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C84B55-3FB9-44C5-8CF5-0939AE10CC00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +150,8 @@ Global
 		{9E13C112-7071-4124-A780-8CBFC09682C6} = {2FDFAABF-C366-49B9-9553-CEB614FC0A84}
 		{72BB08EF-0670-46BD-9DAF-068CDC5AD154} = {2FDFAABF-C366-49B9-9553-CEB614FC0A84}
 		{47F9BCE4-43C9-48CD-841D-75B676140C1A} = {9E13C112-7071-4124-A780-8CBFC09682C6}
+		{F0E5CD24-F3AF-416A-8D4F-4E715C905BD6} = {9E13C112-7071-4124-A780-8CBFC09682C6}
+		{D4C84B55-3FB9-44C5-8CF5-0939AE10CC00} = {9E13C112-7071-4124-A780-8CBFC09682C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3EB1F4F-15F6-4440-8D8F-A5199D3ABF58}

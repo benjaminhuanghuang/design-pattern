@@ -1,11 +1,17 @@
+﻿using System;
 using System.Collections.Generic;
-namespace VisitorDesignPattern
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DoctorVisitor
 {
     /*
-        ObjectStructure (School): 
-        This is a class that holds all the elements (i.e. a collection of kids) and provides a 
-        high-level interface that allows the visitor to visit all the elements.
-    */
+         ObjectStructure (School): 
+         This is a class that holds all the elements (i.e. a collection of kids) and provides a 
+         high-level interface that allows the visitor to visit all the elements.
+     */
     public class School
     {
         private static List<IElement> elements;

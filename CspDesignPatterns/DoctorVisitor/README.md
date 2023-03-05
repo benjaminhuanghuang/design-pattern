@@ -1,4 +1,4 @@
-Visitor (IVisitor): This is an interface and it declares the Visit operation for each element in the object structure (i.e. for concrete visitors).
+﻿Visitor (IVisitor): This is an interface and it declares the Visit operation for each element in the object structure (i.e. for concrete visitors).
 
 ConcreteVisitor (Doctor, Salesman): These are the subclasses that implement each operation declared by the IVisitor interface. Each operation implements a fragment of the algorithm defined for the corresponding class or object in the structure.
 

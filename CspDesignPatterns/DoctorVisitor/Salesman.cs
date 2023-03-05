@@ -1,5 +1,10 @@
-using System;
-namespace VisitorDesignPattern
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DoctorVisitor
 {
     class Salesman : IVisitor
     {
@@ -13,8 +18,7 @@ namespace VisitorDesignPattern
         public void Visit(IElement element)
         {
             Kid kid = (Kid)element;
-            Console.WriteLine("Salesman: " + this.Name + " gave the school bag to the child: "
-                            + kid.KidName);
+            Console.WriteLine($"Salesman: {this.Name} gave the school bag to the child: {kid.KidName}");
         }
     }
 }
