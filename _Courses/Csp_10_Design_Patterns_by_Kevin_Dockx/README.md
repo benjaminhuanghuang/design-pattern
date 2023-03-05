@@ -243,6 +243,7 @@ Its intent is to provide a way to access the elements of an aggregate object seq
 ### Visitor
 A visitor represents an operation that has to be performed on the elements of an object structure. 
 
+Visitor lets you define a new operation without changing the classes of the elements.
 
 
 ### Interpreter
