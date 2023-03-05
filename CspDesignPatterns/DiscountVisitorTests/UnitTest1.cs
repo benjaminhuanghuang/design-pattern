@@ -1,3 +1,6 @@
+using DiscountVisitor;
+
+
 namespace DiscountVisitorTests
 {
     public class UnitTest1
@@ -14,7 +17,7 @@ namespace DiscountVisitorTests
             container.Employees.Add(new Employee("Tom", 5));
 
             // create visitor
-            DiscountVisitor discountVisitor = new();
+            DiscountVisitor.DiscountVisitor discountVisitor = new();
 
             // pass it through
             container.Accept(discountVisitor);
