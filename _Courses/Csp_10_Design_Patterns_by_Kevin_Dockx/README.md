@@ -139,3 +139,6 @@ It does that by forcing objects to communicate via that mediator.
 
 By doing so, it promotes loose coupling by keeping objects from referring to each other explicitly, and it also lets you vary their interaction independently. 
 
+
+### Chain of Responsibility
+Its intent is to avoid coupling the sender of request to its receiver by giving more than one object a chance to handle the request. 
