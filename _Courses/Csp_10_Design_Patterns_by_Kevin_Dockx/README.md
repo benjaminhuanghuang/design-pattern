@@ -231,4 +231,20 @@ public void Withdraw(decimal amount)
     // let the current state handle the withdrawel
     BankAccountState.Withdraw(amount);
 }
-````
+```
+
+
+### Iterator
+Its intent is to provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+
+
+
+
+### Visitor
+A visitor represents an operation that has to be performed on the elements of an object structure. 
+
+
+
+### Interpreter
+
+It's used to define grammar and interpret languages.
