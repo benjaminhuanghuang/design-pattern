@@ -12,23 +12,20 @@ https://github.com/sean-bradley/design-patterns-in-typescript
 
     npm i @types/node
 
+    # create /src/tsconfig.json
+    tsc --init 
 
-    create /src/tsconfig.json
+    npm i -D ts-node
 ```
 
 ## Compile and Run 
 ```
-    # -p Compiles the TypeScript project located at the specified path.
-    # -w watch file change
-    tsc -p ./src -w
-
-    ./dist/1_creational/factory/chair-factory/client.js
-```
-
-## Use ts-node
-```
-    cd 1_creational/factory/chair-factory/
-    ts-node .\client.ts
+"scripts": {
+    "build": "npx tsc",
+    "start": "npm run build && node dist/index.js",
+    "start:begin": "ts-node src/begin.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
 ```
 
 ### Factory
@@ -36,4 +33,3 @@ Factory is about adding extra abstraction between the object creation and where 
 
 ### Abstract Factory
 Use a Factory return Factories
-
