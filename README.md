@@ -1,10 +1,16 @@
 # Design Pattern
 
-Target: Flexible, Maintainable ane Extensible
+- Design Patterns in software development are a `reusable solution` to a `commonly occurring problem` in software design.
+- Design patterns provide a `common vocabulary` and understanding for developers to communicate and solve problems more efficiently.
+- They help to promote code 
+  - reusability
+  - maintainability
+  - extensibility
+  - scalability.
 
 ## Creational - How objects created
 
-Creational patterns are focused on `instantiating` objects in a way that `hides` the mechanisms of their creation from the rest of the program. 
+Creational patterns are focused on `instantiating` or `creation` objects in a way that `hides` the mechanisms of their creation from the rest of the program. 
 
 Make decision at run time.
 
@@ -42,12 +48,3 @@ Structural patterns simplify the `relationships and hierarchies` between differe
 - Strategy: Encapsulates an algorithm inside a class
 - Template method: Defer the exact steps of an algorithm to a subclass
 - Visitor: Defines a new operation to a class without change
-
-
-
-
-
-
-
-
-
