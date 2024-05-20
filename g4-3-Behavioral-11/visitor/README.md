@@ -1,7 +1,9 @@
 # Visitor Design Pattern
 
-It is used to change the behavior of a class
-lets you separate algorithms from the objects on which they operate.
+The Visitor pattern allows you to add or define new functionality to an object without changing the code for that object.
+The new logic resides in a external object or function called the 'visitor'.
+
+It is used to change the behavior of a class, lets you separate algorithms from the objects on which they operate.
 
 Visitor is a behavioral design pattern that allows `adding new behaviors` to existing class hierarchy `without` altering any existing code.
 
@@ -32,6 +34,7 @@ class Industry is
 ```
 
 ## Intent
+
 Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.
 The classic technique for recovering lost type information.
 Do the right thing based on the type of two objects.
@@ -42,6 +45,13 @@ Many distinct and unrelated operations need to be performed on node objects in a
 
 ## 
 不改变base class
+
+## Component
+
+- Element, has an accept method that takes a visitor as an argument.
+- ConcreteElement
+- Visitor
+- ConcreteVisitor
 
 ## When to use Visitor Design Pattern in C#?
 - An object structure must have many unrelated operations to perform on it.
@@ -55,4 +65,3 @@ Many distinct and unrelated operations need to be performed on node objects in a
 - When an object structure contains many classes of objects with different interfaces, and you want to perform operations on them depending on their concrete classes
 
 - When the classes defining your object structure don't have to change often, but you do often want to define new operations over the structure
-
