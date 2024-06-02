@@ -13,3 +13,7 @@ remote.buttonWasPressed();
 remote.setCommand(garageOpen);
 remote.buttonWasPressed();
 ```
+
+## Using state to implement Undo
+
+To undo, we set the state back to the previous state and then call the execute method.
