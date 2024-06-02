@@ -1,6 +1,7 @@
-## Design Pattern Classifiction
+# Design Pattern Classification
 
 ## Creational Patterns [Object creation]
+
 - Abstract Factory
   
   Creates an instance of several families of classes

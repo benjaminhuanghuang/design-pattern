@@ -13,8 +13,8 @@ Sample:
     - Runtime.getRuntime()
 
 
-
 ## Decorator
+
 - @Decorator
 
 ## Observer:
@@ -23,5 +23,3 @@ Sample:
 
 ## Strategy:
 - java.util.Comparator
-
-

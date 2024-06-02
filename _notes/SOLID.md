@@ -8,8 +8,6 @@
  
     Superclass should be replaceable with objects of its subclasses without breaking the application
 
-
 - `I`nterface segregation
 
 - `D`ependency inversion
-
